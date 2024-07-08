@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2e3e18e325.js" crossorigin="anonymous"></script>
+    <title>Ian Elijah Galang Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo"><span>IAN</span> ELIJAH</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hello, I'm <span>IAN</span> ELIJAH</h1>
+            <h3>A <span>Front-End</span> Developer</h3>
+
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/ian-elijah-galang/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/Pandabotic" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+
+            <div class="buttons">
+                <a href="#contact" class="btn">Hire Me</a>
+                <a href="#projects" class="btn">My Showcase</a>
+            </div>
+        </div>
+    </section>
+
+    
+        <section class="about" id="about">
+            <div class="about-content">
+                <h2><span>About</span> Me</h2>
+                <p>Located in Southern California, having a dedicated work ethic and impending passion with web development, 
+                    my goal is to not only start up my career as a front-end web developer, but also obtain new skillsets and 
+                    build my creativity mindset with like-minded individuals too. Some things about me that I love to do outside of 
+                    coding are going to the gym and playing basketball. 
+                </p>
+    
+                <h2 class="skill"><span>Skills</span></h2>
+    
+                <div class="skills">
+                    <ul>
+                        <li><i class="fa-brands fa-html5"></i></li>
+                            <p>HTML</p>
+                        <li><i class="fa-brands fa-css3-alt"></i></i></li>
+                            <p>CSS</p>
+                        <li><i class="fa-brands fa-js"></i></i></li>
+                            <p>JavaScript</p>
+                    </ul>
+                    <ul>
+                        <li><i class="fa-brands fa-shopify"></i></li>
+                            <p>Shopify</p>
+                        <li><i class="fa-solid fa-pen-nib"></i></li>
+                            <p>UI/UX Design</p>
+                        <li><i class="fa-solid fa-lightbulb"></i></li>
+                            <p>Critical Thinking</p>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+
+    <section class="projects" id="projects">
+        <h2 class="heading">Projects</h2>
+
+        <div class="project-box">
+            <div class="project-card">
+                <img src="PROJECT.png">
+
+                <h3>Project 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias, reprehenderit aperiam. Vel dignissimos vero nihil tenetur illum distinctio odit error magnam reiciendis! Totam sint asperiores vel perspiciatis eaque, in aliquid.</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="PROJECT.png">
+
+                <h3>Project 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, itaque quam consequuntur quisquam commodi natus perspiciatis voluptate optio quos impedit aspernatur ex alias aperiam quis, ipsum amet quas cupiditate! Voluptas?</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="PROJECT.png">
+
+                <h3>Project 3</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas eaque eligendi quibusdam repellat voluptatem neque optio autem, deserunt, veritatis nostrum a. Repellendus consectetur aut obcaecati corporis vero ullam harum.</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">Code</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="PROJECT.png">
+
+                <h3>Project 4</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti voluptas eaque eligendi quibusdam repellat voluptatem neque optio autem, deserunt, veritatis nostrum a. Repellendus consectetur aut obcaecati corporis vero ullam harum.</p>
+                <div class="buttons">
+                    <a href="#" class="btn">Live Demo</a>
+                    <a href="#" class="btn">Code</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading"><span>Contact</span> Me</h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="76873141-2256-4d56-a9ad-08d9d1130d3c">
+            <div class="input group">
+                <div class="input-box">
+                    <input type="text" name="Name" placeholder="Full Name" required>
+                    <input type="email" name="Email Address" placeholder="Email" required>
+                </div>
+                <div class="input-box ">
+                    <input type="number" name="Phone Number" pattern="[0-9]{3}-[0-9{3}-[0-9]{4}" placeholder="Phone Number">
+                    <input type="text" name="Subject" placeholder="Subject" required>
+                </div>
+            </div>
+            <div class="input-group-2">
+                <textarea name="Message" id="" cols="30" rows="10" placeholder="Message" required></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </div>
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/ian-elijah-galang/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/Pandabotic" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+
+        <p class="copyright">
+            &#169; Ian Elijah Galang | All Rights Reserved
+        </p>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
