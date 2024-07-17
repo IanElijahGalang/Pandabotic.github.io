@@ -227,6 +227,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     align-items: center;
+    justify-content: center;
     gap: 3rem;
     row-gap: 5rem;
 }
@@ -316,6 +317,7 @@ section {
     font-size: 16px;
 }
 
+/*Responsiveness*/
 @media(max-width: 1024px) {
     #menu-icon {
         display: block;
